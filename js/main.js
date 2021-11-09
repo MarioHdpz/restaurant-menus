@@ -2,6 +2,6 @@
 $(document).ready(function() {
     $(".logo").click(function() {
         var pdf_link = $(this).attr("pdf");
-        window.location.href = pdf_link;
+        window.location.href = "pdfs/" + pdf_link;
     });
 });
