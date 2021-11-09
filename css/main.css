@@ -1,0 +1,66 @@
+body {
+  overflow-x: hidden;
+}
+
+section#main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 1rem 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+}
+
+/* Texts */
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 1.2rem;
+}
+
+/* Restaurant images */
+.restaurants {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.restaurants img {
+  padding: 1rem;
+}
+
+.logo {
+  border-radius: 50%;
+}
+.logo:hover {
+  cursor: pointer;
+}
